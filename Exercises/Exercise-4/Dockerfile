@@ -1,6 +1,9 @@
-FROM python:latest
+FROM python:3.10-slim
 
-WORKDIR app
-COPY . /app
+WORKDIR /app
 
-RUN python3 -m pip install -r requirements.txt
+COPY . .
+
+RUN pip install requests beautifulsoup4 psycopg2-binary
+
+CMD ["python", "main.py"]
