@@ -9,7 +9,7 @@ exercises, I will send you back a free copy of my ebook Introduction to Data Eng
 
 This aim of this repository is to help you develop and 
 learn those skills. Generally, here are the high level
-topics that these practice problems will cover.
+topics that these practice problems will cover...
 
 - Python data processing.
 - csv, flat-file, parquet, json, etc.
